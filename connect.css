@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  color: black;
+  font: 3em Futura, 'Century Gothic', AppleGothic, sans-serif;
+  text-shadow: -1px 0 #FFFFE6, 0 1px #FFFFE6, 1px 0 #FFFFE6, 0 -1px #FFFFE6;
+}
+
+.board {
+  margin: 0 auto;
+  text-align: center
+}
+
+.token {
+  height: 76.5px;
+  width: 76px;
+  margin-left: 10px;
+  margin-bottom: 1000px;
+}
+
+.place-token{
+  margin: 5px;
+  font: 0.8em Futura, 'Century Gothic', AppleGothic, sans-serif;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #FFFFE6;
+  display: inline;
+}
+
+body {
+  background-color: #F6F6F6;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  background-image: url("pics/connect4column.gif");
+  background-repeat: no-repeat;
+  width: 95px;
+  height: 480px;
+  vertical-align: top;
+}
+
+#restart-wrapper {
+  margin: auto 0;
+  text-align: center;
+}
+
+#restart {
+  margin: 5px;
+  font: 0.8em Futura, 'Century Gothic', AppleGothic, sans-serif;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #FFFFE6;
+  display: inline;
+}
+
+#game-status {
+  text-align: center;
+  font: 1.5em Futura, 'Century Gothic', AppleGothic, sans-serif;
+  color: red;
+  height: 1em;
+}
