@@ -4,7 +4,6 @@ h1 {
   font: 3em Futura, 'Century Gothic', AppleGothic, sans-serif;
   text-shadow: -1px 0 #FFFFE6, 0 1px #FFFFE6, 1px 0 #FFFFE6, 0 -1px #FFFFE6;
 }
-
 .board {
   margin: 0 auto;
   text-align: center
